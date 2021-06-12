@@ -1,0 +1,115 @@
+
+header {
+    background: rgb(255,255,255);
+    background: linear-gradient(67deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 7%, rgba(204,255,77,1) 61%, rgba(255,255,255,1) 93%, rgba(255,255,255,1) 100%);
+    height: 180px;
+    width: 75%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+ul {
+    list-style-type: none;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+ul li{
+    display: inline;
+    margin-right: 3%;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background: rgb(221, 255, 134);  
+
+  }
+
+  li:hover {
+    background: rgb(199,255,60);
+  }
+
+  ul a {
+      text-decoration: none;
+  }
+
+  h1 {
+      text-align: center;
+  }
+
+  form {
+      text-align: center;
+        line-height: 2em;
+  }
+
+  .center {
+      text-align: center;
+  }
+
+  p {
+      text-align: center;
+      margin-left: 20%;
+      margin-right: 20%;
+  }
+
+  .user {
+      position: absolute;
+      right: 10%;
+      top: 23.5%;
+  }
+
+  .bold {
+      font-weight: 700;
+  }
+
+  .container {    
+    text-align: center;
+    margin-top: 50px;
+    
+}
+
+.down {
+    position: relative;
+    top: 30px;
+}
+
+.komenty {
+    text-align: center;
+    width: 25%;
+    margin: auto;
+    position: relative;
+    top: 60px;
+    padding-bottom: 150px;
+}
+
+.komenty .prispevek {
+    width: 100%;
+    background-color: rgb(241, 255, 225);
+    padding-top: 20px;
+    border: solid darkgrey 2px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.prispevek p {
+    position: relative;
+    top: -25px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+
+.smazat {
+    position:relative;
+    top: -10px;
+    left: 190px;
+    background-color: rgb(101, 248, 101);
+    cursor: pointer;
+    margin: 0;
+}
